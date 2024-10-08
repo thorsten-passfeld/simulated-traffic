@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["Thorsten Paßfeld <t.passfeld@hs-osnabrueck.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+argparse = "^1.4.0"
+black = "^23.1.0"
+folium = "^0.14.0"
+openrouteservice = "^2.3.3"
+turfpy = "^0.0.7"
+overpass = "^0.7"
+tqdm = "^4.65.0"
+ijson = "^3.2.0"
+defaultlist = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+route-generator = "src.route_generator:main"
+combined-route = "src.test_combined_route:main"

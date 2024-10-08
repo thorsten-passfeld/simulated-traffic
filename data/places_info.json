@@ -1,0 +1,142 @@
+{
+    "122": {
+        "Name": "Animal Shelter",
+        "IsGroupID": false,
+        "WorkInfo": {
+            "MaxWorkers": 30,
+            "StartTimeFrom": 6,
+            "StartTimeTo": 9
+        },
+        "FreeTimeActivityInfo": {}
+    },
+    "123": {
+        "Name": "Veterinary",
+        "IsGroupID": false,
+        "WorkInfo": {
+            "MaxWorkers": 30,
+            "StartTimeFrom": 6,
+            "StartTimeTo": 9
+        },
+        "FreeTimeActivityInfo": {
+            "TypicalStayDurationHours": 2.0
+        }
+    },
+    "124": {
+        "Name": "Pet Shop",
+        "IsGroupID": false,
+        "WorkInfo": {
+            "MaxWorkers": 30,
+            "StartTimeFrom": 7,
+            "StartTimeTo": 9
+        },
+        "FreeTimeActivityInfo": {
+            "TypicalStayDurationHours": 1.5
+        }
+    },
+    "130": {
+        "Name": "Arts and Culture",
+        "IsGroupID": true,
+        "WorkInfo": {
+            "MaxWorkers": 30,
+            "StartTimeFrom": 7,
+            "StartTimeTo": 10
+        },
+        "FreeTimeActivityInfo": {
+            "TypicalStayDurationHours": 2.5
+        }
+    },
+    "150": {
+        "Name": "Education",
+        "IsGroupID": true,
+        "WorkInfo": {
+            "MaxWorkers": 40,
+            "StartTimeFrom": 7,
+            "StartTimeTo": 8
+        },
+        "FreeTimeActivityInfo": {}
+    },
+    "192": {
+        "Name": "Bank",
+        "IsGroupID": false,
+        "WorkInfo": {
+            "MaxWorkers": 100,
+            "StartTimeFrom": 7,
+            "StartTimeTo": 9
+        },
+        "FreeTimeActivityInfo": {
+            "TypicalStayDurationHours": 0.3
+        }
+    },
+    "200": {
+        "Name": "Healthcare",
+        "IsGroupID": true,
+        "WorkInfo": {
+            "MaxWorkers": 500,
+            "StartTimeFrom": 5,
+            "StartTimeTo": 8
+        },
+        "FreeTimeActivityInfo": {}
+    },
+    "260": {
+        "Name": "Leisure and Entertainment",
+        "IsGroupID": true,
+        "WorkInfo": {},
+        "FreeTimeActivityInfo": {
+            "TypicalStayDurationHours": 2.0
+        }
+    },
+    "360": {
+        "Name": "Public Places",
+        "IsGroupID": true,
+        "WorkInfo": {
+            "MaxWorkers": 200,
+            "StartTimeFrom": 6,
+            "StartTimeTo": 8
+        },
+        "FreeTimeActivityInfo": {}
+    },
+    "390": {
+        "Name": "Service",
+        "IsGroupID": true,
+        "WorkInfo": {
+            "MaxWorkers": 25,
+            "StartTimeFrom": 7,
+            "StartTimeTo": 10
+        },
+        "FreeTimeActivityInfo": {
+            "TypicalStayDurationHours": 2.0
+        }
+    },
+    "420": {
+        "Name": "Shops",
+        "IsGroupID": true,
+        "WorkInfo": {
+            "MaxWorkers": 80,
+            "StartTimeFrom": 8,
+            "StartTimeTo": 10
+        },
+        "FreeTimeActivityInfo": {
+            "TypicalStayDurationHours": 0.5
+        }
+    },
+    "560": {
+        "Name": "Sustenance",
+        "IsGroupID": true,
+        "WorkInfo": {
+            "MaxWorkers": 40,
+            "StartTimeFrom": 7,
+            "StartTimeTo": 12
+        },
+        "FreeTimeActivityInfo": {
+            "TypicalStayDurationHours": 2.0
+        }
+    },
+    "620": {
+        "Name": "Tourism",
+        "IsGroupID": true,
+        "WorkInfo": {},
+        "FreeTimeActivityInfo": {
+            "TypicalStayDurationHours": 3.0
+        }
+    }
+}
